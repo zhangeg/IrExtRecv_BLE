@@ -227,7 +227,7 @@
 #define HAL_UART_MSECS_TO_TICKS    33
 
 #if !defined HAL_UART_DMA_RX_MAX
-#define HAL_UART_DMA_RX_MAX        128
+#define HAL_UART_DMA_RX_MAX        255//128
 #endif
 #if !defined HAL_UART_DMA_TX_MAX
 #define HAL_UART_DMA_TX_MAX        HAL_UART_DMA_RX_MAX
